@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MailSenderDIExample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SmtpServer": "1620074513@qq.com"
+      }
+    }
+  }
+}
