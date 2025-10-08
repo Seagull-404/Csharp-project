@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Config1": {
+      "commandName": "Project",
+      "commandLineArgs": "name=wuhaitao age=22",
+      "environmentVariables": {
+        "name": "Wuhaitao",
+        "Age": "23",
+        "Proxy:Address": "HB",
+        "Proxy:Port": "4210"
+      }
+    }
+  }
+}

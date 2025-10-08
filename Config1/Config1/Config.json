@@ -1,0 +1,5 @@
+﻿{
+  "name": "Seagull",
+  "age": "23",
+  "proxy": { "address": "aa" ,"port": "80"}
+}
