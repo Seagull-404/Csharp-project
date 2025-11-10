@@ -9,11 +9,11 @@ namespace EFCore1
         {
             using (MyDbContext ctx = new MyDbContext())
             {
-                /*Person p = new Person();
+                Person p = new Person();
                 p.Name = "Test";
                 ctx.Persons.Add(p);
-               await ctx.SaveChangesAsync();*/
-                /*var b1 = new Book
+               await ctx.SaveChangesAsync();
+                var b1 = new Book
                 {
                     AuthorName = "杨中科",
                     Title = "零基础趣学C语言",
@@ -53,7 +53,7 @@ namespace EFCore1
                 ctx.Books.Add(b3);
                 ctx.Books.Add(b4);
                 ctx.Books.Add(b5);
-                await ctx.SaveChangesAsync(); */
+                await ctx.SaveChangesAsync(); 
                 /*var books= ctx.Books.Where(b => b.Price > 80);
                  foreach (var book in books)
                  {
